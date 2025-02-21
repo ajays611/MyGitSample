@@ -55,7 +55,7 @@ public class LoginOrangeHrm {
 
 	@When("I click on approve button")
 	public void i_click_on_approve_button() {
-	   driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/div/div/button[1]")).click();
+	   driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]")).click();
 	}
 
 	@Then("Leave request should approved")
