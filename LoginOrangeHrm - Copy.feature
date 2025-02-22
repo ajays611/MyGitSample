@@ -12,9 +12,3 @@ Scenario: Approve Leave
 Given I am in the Leave Tab section
 When I click on approve button
 Then Leave request should approved
-
-Scenario: Approve Leave
-
-Given I am in the Leave Tab section
-When I click on approve button
-Then Leave request should approved
