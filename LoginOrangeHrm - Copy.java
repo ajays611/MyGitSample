@@ -58,14 +58,6 @@ public class LoginOrangeHrm {
 	   driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]")).click();
 	}
 
-	@Then("Leave request should approved")
-	public void leave_request_should_approved() throws IOException {
-		
-		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(scrFile, new File("screenshot.png"));
-	}
-
-
 
 
 }
